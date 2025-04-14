@@ -16,7 +16,7 @@ function slugify(title) {
   return title.toLowerCase().split(" ").join("-");
 }
 
-
+// Якщо потрібно тільки в консоль, то потрібно замінити output на console.log нижче і видалити перші дві функції
 output(slugify("Arrays for beginners")); // "arrays-for-beginners"
 output(slugify("English for developer")); // "english-for-developer"
 output(slugify("Ten secrets of JavaScript")); // "ten-secrets-of-javascript"

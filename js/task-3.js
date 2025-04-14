@@ -24,7 +24,7 @@ function filterArray(numbers, value) {
   return result;
 }
 
-
+// Якщо потрібно тільки в консоль, то потрібно замінити output на console.log нижче і видалити перші дві функції
 output(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]
 output(filterArray([1, 2, 3, 4, 5], 4)); // [5]
 output(filterArray([1, 2, 3, 4, 5], 5)); // []

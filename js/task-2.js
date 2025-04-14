@@ -23,7 +23,7 @@ function makeArray(firstArray, secondArray, maxLength) {
 }
 
 
-
+// Якщо потрібно тільки в консоль, то потрібно замінити output на console.log нижче і видалити перші дві функції
 output(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3)); // ["Mango", "Poly", "Ajax"]
 output(makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4)); // ["Mango", "Poly", "Houston", "Ajax"]
 output(makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3)); // ["Mango", "Ajax", "Chelsea"]
